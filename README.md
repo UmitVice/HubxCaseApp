@@ -1,3 +1,30 @@
+# HubxCaseApp
+
+React Native case implementing Onboarding → Paywall → Home using TypeScript and Redux Toolkit.
+
+## Run
+
+```bash
+npm install
+npx pod-install
+npm run android # or ios
+```
+
+## Structure
+
+See `src/` folders: `components`, `screens`, `navigation`, `services`, `store`, `theme`, `types`, `hooks`.
+
+## APIs
+
+- Categories: `https://dummy-api-jtg6bessta-ey.a.run.app/getCategories`
+- Questions: `https://dummy-api-jtg6bessta-ey.a.run.app/getQuestions`
+
+## Notes
+
+- Reusable primitives built in `src/components/primitives`.
+- State with Redux Toolkit. Onboarding completion persisted via AsyncStorage.
+- Lists are optimized with memoized item components.
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
